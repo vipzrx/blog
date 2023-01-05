@@ -22,7 +22,7 @@ https://blog.csdn.net/chengyuweng7838/article/details/100996286
 https://www.cnblogs.com/levinkai/p/11589443.html
 
 空白文件夹内部
-选中文件夹爱
+选中文件夹
 
 添加图标
 命令行
@@ -55,4 +55,171 @@ msys环境
 
 
 "C:\soft\soft_x200\msys2\msys2_shell.cmd" -msys -no-start -shell zsh "-here"
+
+
+* openwrt关机
+重启
+reboot
+
+关机poweroff
+* 查看苹果手表型号
+https://support.apple.com/zh-cn/HT204507
+
+清华源
+dhcp
+root密码
+o1主机别名
+
+zsh
+
+* 电信查询话费
+发送102到10001
+* 大机场邮件通知
+网站通知
+尊敬的用户您好！
+
+我们的官网域名被污染，现已更新官网地址，登陆请最新使用官网地址。
+
+官网国内入口：大机场.cc
+
+官网国际入口：大机场.com 大机场.net
+
+如果国内入口失效，我们将会在 "官网公告" "TG频道" "订阅信息" "邮件通知"更新最新的入口。
+
+敏感时期，使用前请更新订阅，更多帮助请查询官网使用教程。不便之处，敬请谅解
+
+** TODO 域名污染
+邮件通知
+国内入口
+国际入口
+
+最新入口获取方式
+
+更新订阅
+时间间隔 cfw最小1小时 verge 5分钟
+
+* http://pp75.eu.org:33333/
+密码
+
+* dcoker卸载alist
+docker stop alist && docker rm alist
+
+docker stop alist
+docker rm alist
+docker pull xhofe/alist:latest
+docker run -d --restart=always -v /etc/alist:/opt/alist/data -p 5244:5244 --name="alist" xhofe/alist:latest
+
+** 更新alist
+重新拉取
+
+对于 docker 用户，只需删除旧的容器并拉取新的docker image，然后运行它即可
+
+** 用portainer更新最方便
+
+* 百度网盘有解吗 官方接口不能看视频
+非官方不能看图片
+
+* alist挂载pikpak跟阿里云盘后，使用rclone从pikpak对拷到阿里云盘成功的？
+
+* 图床直接放github仓库就好
+再整个反代
+
+* 网页查看alist版本
+在网页管理后台看站点菜单，就知道了
+
+alit+115+raidrive掛到本地, jellyfin在削刮
+
+不敢这么玩,硬盘耗不起（要流式传输,频繁读写缓存
+
+* virtualbox安装群晖
+ref
+
+** 使用工具
+virtualbox
+rufus
+arpl
+群晖7.1.1
+
+** arpl
+https://github.com/fbelavenuto/arpl
+
+https://github.com/fbelavenuto/arpl/releases/tag/v1.0-beta9
+
+** 洗白
+*** 未洗白限制 
+** 洗白后再注册，没有特殊需要的话，建议不洗白最好
+** 批量转换阿里云分享
+https://github.com/yzbtdiy/alist_batch
+** 下载群晖系统
+https://www.synology.cn/zh-cn/support/download/DS120j?version=7.1#system
+
+机器型号
+操作系统
+DSM 7.1.1
+* 使用ffmpeg转码
+ffmpeg [options] [[infile options] -i infile]... {[outfile options] outfile}
+
+// e.g. 
+// ffmpeg -i ./video_input.mkv -c copy ./video_output.mp4
+* 苹果手表说明文档
+https://support.apple.com/zh-cn/watch
+* TODO https://www.423down.com/9921.html/comment-page-3#comments
+ShanaEncoder 使用说明
+
+* 轻松签
+** 安装
+*** 在线安装
+https://appforshare.io/i/LERN5x
+
+https://esign.yyyue.xyz/install.html?id=4292fdd7fbb81f398e68af65297e3cab
+
+使用safari打开
+速度慢一些
+
+*** 使用爱思助手安装
+工具箱--IPA签名
+**** 导入证书
+选择证书
+密码 123456
+
+**** 签名
+
+**** 安装
+找到签名后的,双击
+
+**** 信任证书
+设置--通用-- VPN与设备管理
+信任证书
+
+** 轻松签自动识别导入证书
+
+*
+https://github.com/ii1024/docs.git
+
+git remote add origin https://github.com/ii1024/docs.git
+git branch -M main
+git push -u origin main
+
+
+create a new repository on the command line
+echo "# docs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ii1024/docs.git
+git push -u origin main
+
+* 酷通VPN
+https://kutogroup.com/apps/zh-vpn.html
+
+完全免费，没有带宽和流量限制
+
+直连线路，低延时，高带宽，保证用户稳定运行
+易于使用，只需要轻点一个按钮就可以连接最快的VPN服务器
+VPN热点，通过局域网共享已连接的VPN给PC或者其他设备
+应用模式，只允许部分应用通过VPN，其他的绕行
+智能分流，区分大陆流量和境外流量智能代理
+TV投屏，将需要代理才能访问的视频链接直接投屏到智能电视
+
 
