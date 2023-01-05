@@ -1,0 +1,58 @@
+* 设置主机别名
+上传ssh key
+github
+
+github网页新建空白repo
+
+本地新建repo
+添加github的远程分支
+* 目录结构
+* emacs
+hugo
+图床
+文件放alist
+阿里云盘
+
+/d/nut/blog
+* msys2当前目录下打开
+ref https://gist.github.com/hollowmaster1496/617769d51d39cf4cc8f6427d6f3b4369
+
+https://blog.csdn.net/chengyuweng7838/article/details/100996286
+
+https://www.cnblogs.com/levinkai/p/11589443.html
+
+空白文件夹内部
+选中文件夹爱
+
+添加图标
+命令行
+使用zsh
+
+reg导出
+
+双击倒入reg
+
+计算机\HKEY_CLASSES_ROOT\Directory\Background\shell\MSYS2\command
+
+** 参数含义
+"C:\soft\soft_x200\msys2\msys2_shell.cmd" -msys -defterm -no-start -shell zsh "-here"
+
+"C:\soft\soft_x200\msys2\msys2_shell.cmd" 使用everything找到路径
+
+-msys
+msys环境
+
+-defterm
+
+-no-start
+不显示启动窗口
+
+-shell zsh
+使zsh
+
+"-here"
+进入到当前目录
+
+
+"C:\soft\soft_x200\msys2\msys2_shell.cmd" -msys -no-start -shell zsh "-here"
+
